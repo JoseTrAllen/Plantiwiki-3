@@ -1,13 +1,13 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  root: ".", // Esto indica que la raíz del proyecto es el directorio actual
+  root: ".", // Asegura que la raíz sea el directorio actual
   build: {
-    outDir: "dist", // Los archivos construidos se colocarán en la carpeta 'dist'
+    outDir: "dist", // Los archivos generados irán a 'dist'
     rollupOptions: {
       input: {
-        main: "index.html", // Archivo principal en la raíz
-        register: "src/userRegister/register.html", // El archivo register estará en src/userRegister
+        main: "index.html", // Archivo principal de la aplicación
+        register: "public/register.html", // Archivo de registro
       },
     },
   },
