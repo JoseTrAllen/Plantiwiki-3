@@ -5,7 +5,7 @@ import {
   displayUserPlants,
 } from "./ui";
 import { fetchUsers } from "./api/usersApi";
-import { fetchPlants } from "./plantsApi";
+import { fetchPlants } from "./api/plantsApi";
 const getUserFromURL = () => {
   const params = new URLSearchParams(window.location.search);
   return params.get("username");
