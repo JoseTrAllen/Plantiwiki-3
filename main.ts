@@ -1,3 +1,4 @@
+import { fetchUsers } from "./src/api/usersApi";
 import { verifyUser } from "./verifyUser";
 
 const hamburgerButton = document.querySelector(".hamburger-svc");
@@ -109,5 +110,9 @@ if (
     }
   });
 }
+
+fetchUsers();
+
+console.log("Pasa algo?");
 
 console.log("Hello PlantiWiki");

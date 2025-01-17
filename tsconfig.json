@@ -10,12 +10,5 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": [
-    "src",
-    "public/userRegister.js",
-    "public/ui.js",
-    "public/user.js",
-    "public/plantsApi.js",
-    "public/usersApi.js"
-  ]
+  "include": ["src"]
 }

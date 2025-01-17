@@ -140,7 +140,7 @@ a {
   width: 100dvw;
   min-height: 100dvh;
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
-    url(/public/assets/sliderMonstera.jpg);
+    url(/assets/sliderMonstera.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ a {
 .cards-section {
   text-align: center;
   padding: 40px 0px;
-  background: url(/public/assets/section4background.jpg);
+  background: url(/assets/section4background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
