@@ -1,7 +1,8 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/", // Asegúrate de que sea "/" si planeas desplegar en Vercel o Netlify
   build: {
-    outDir: "dist", // Utiliza 'dist' o cualquier otra carpeta para la salida de la compilación
+    outDir: "dist", // Carpeta donde se generan los archivos compilados
   },
 });
