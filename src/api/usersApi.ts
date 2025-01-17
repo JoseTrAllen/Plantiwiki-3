@@ -1,6 +1,5 @@
 import { User } from "../../model";
 
-const localApi = "http://localhost:3000/users";
 const usersApi = "https://67895c042c874e66b7d88056.mockapi.io/api/v1/users";
 
 export const fetchUsers = async (): Promise<User[]> => {
