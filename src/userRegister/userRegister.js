@@ -1,2 +1,2 @@
 "use strict";
-console.log("Funciono");
+console.log("Funciono en JS!!!");
