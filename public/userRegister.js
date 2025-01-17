@@ -1,5 +1,3 @@
-"use strict";
-
 import { fetchUsers } from "./api/usersApi";
 
 console.log("Funciono");
