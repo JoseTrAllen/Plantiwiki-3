@@ -1,6 +1,6 @@
 "use strict";
 
-import { fetchUsers } from "./usersApi";
+import { fetchUsers } from "./src/api/usersApi";
 
 export const verifyUser = async (user, password) => {
   const users = await fetchUsers();
