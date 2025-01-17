@@ -1,3 +1,5 @@
+const x = "npm run build";
+
 import { fetchUsers } from "./api/usersApi";
 
 console.log("Funciono");
