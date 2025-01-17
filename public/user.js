@@ -3,9 +3,9 @@ import {
   displayUserPhotoProfile,
   displayUserNamePlants,
   displayUserPlants,
-} from "../src/userProfile/ui";
-import { fetchUsers } from "../src/api/usersApi";
-import { fetchPlants } from "../src/api/plantsApi";
+} from "./ui";
+import { fetchUsers } from "./api/usersApi";
+import { fetchPlants } from "./plantsApi";
 const getUserFromURL = () => {
   const params = new URLSearchParams(window.location.search);
   return params.get("username");
