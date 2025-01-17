@@ -1,6 +1,6 @@
 "use strict";
 
-import { fetchUsers } from "./api/usersApi";
+import { fetchUsers } from "../src/api/usersApi";
 
 console.log("Funciono");
 console.log("Añado");
